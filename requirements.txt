@@ -1,0 +1,28 @@
+# Core utilities
+tqdm
+numpy
+pandas
+PyYAML
+
+# Academic papers ingestion
+arxiv
+pymupdf        # (imported as "fitz")
+
+# NLP / Embeddings / Retrieval
+sentence-transformers
+faiss-cpu
+rank-bm25
+
+# Reranking (cross-encoders)
+transformers
+
+# Evaluation
+ragas
+datasets        # needed for ragas + huggingface datasets
+
+# Web demo UI
+streamlit
+
+# Optional image processing for multi-modal PDF
+pytesseract
+pillow

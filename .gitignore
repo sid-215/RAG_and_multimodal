@@ -1,0 +1,56 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# IDE / Editor
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# OS-specific
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs / temp
+# ------------------------
+*.log
+*.tmp
+*.swp
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Project-specific
+# ------------------------
+
+# Don’t commit large PDFs or datasets
+data/raw_pdfs/
+data/mm_rag/*.pdf
+
+# Allow small JSON corpus files for eval/demo
+# (but ignore full dumps if needed)
+
+
+# Secrets
+.env
