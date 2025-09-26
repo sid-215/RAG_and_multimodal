@@ -40,9 +40,6 @@ Thumbs.db
 # ------------------------
 .ipynb_checkpoints/
 
-# ------------------------
-# Project-specific
-# ------------------------
 
 # Don’t commit large PDFs or datasets
 data/raw_pdfs/
@@ -54,3 +51,31 @@ data/mm_rag/*.pdf
 
 # Secrets
 .env
+
+# Ignore sample PDF
+data/Portfolio-Analysis-Sample.pdf
+
+# Ignore parsed images and page snapshots
+data/mm_rag/parsed/images/
+data/mm_rag/parsed/page_images/
+
+
+# Ignore raw media outputs
+data/mm_rag/parsed/images/
+data/mm_rag/parsed/page_images/
+data/mm_rag/media/
+
+# Ignore table dumps
+data/mm_rag/tables/
+
+# Ignore text block dumps
+data/mm_rag/text_blocks/
+
+# Ignore JSONL metadata/index files
+data/mm_rag/*.jsonl
+data/mm_rag/index/*.jsonl
+data/mm_rag/index/image_meta.jsonl
+data/mm_rag/index/text_meta.jsonl
+data/mm_rag/index/table_meta.jsonl
+data/mm_rag/index/text.faiss
+data/mm_rag/index/image.faiss

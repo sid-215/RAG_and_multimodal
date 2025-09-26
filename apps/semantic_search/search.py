@@ -110,5 +110,19 @@ def main():
         print("Abstract:", r.get("abstract")[:300], "...")
         print("Score:", r.get("score", r.get("rerank_score")))
 
+    # Log to file
+    from logger import log_interaction
+
+
+    retrieved = [{"paper_id": r["paper_id"], "score": r["score"]} for r in results]
+    log_interaction(
+        query=args.query,
+        normalized_query=norm_query,
+        retrieved=retrieved,
+        chosen_doc=None,        # can update later with user click info
+        feedback=None           # e.g., user says "this was relevant"
+    )
+    print("Logged")
+
 if __name__ == "__main__":
     main()
