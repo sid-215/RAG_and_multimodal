@@ -103,7 +103,7 @@ RAG_and_multimodal/
 ###  Normalization
 - **Spelling correction** → `pyspellchecker`. Used pyspell checker to correct spelling mistakes in queries 
 - **Acronym expansion** → dictionary + fallback to LLM.  Used regex to detect any abbreviations. Used a map of abbreviation and acronym to fill it. If not, LLM is used as fallback option to fill the abbreviation based on query context
-- **Date resolution** → detect relative time ("last week") and resolve to absolute dates using LLM.  
+- **Date resolution** → Checks for any temporal keywords in the query and if so, today's date is calculated which along with the query is sent to LLM to generate filter dates based on the query. For example if query has last week, the LLM generates start and end date for 1 week period which can be used to filter the metadata. As the assignment does not have date column for now, I did not filter by date but logic that deals with dates is implemented  
 
 ###  Evaluation
 - Metrics: **Accuracy@1, Recall@k, MRR**.  
@@ -115,6 +115,7 @@ RAG_and_multimodal/
   - Used to retrain BM25 / embeddings.  
   - Improve acronym/date handling.  
   - Build custom domain-specific retrievers.  
+- I did not fully implement custom data flywheel but demonstrated logging for future implementation.
 
 ---
 
