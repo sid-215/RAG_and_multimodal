@@ -1,0 +1,49 @@
+{"question": "What is the only tuning parameter in the finite-sample optimal estimator for RD designs?", "answer": "The Lipschitz constant.", "source": "2509.18857v1"}
+{"question": "What class of estimators does the proposed method minimize MSE over?", "answer": "Linear shrinkage estimators with nonnegative weights.", "source": "2509.18857v1"}
+{"question": "In what type of outcomes is the proposed estimator primarily applied?", "answer": "Binary outcomes.", "source": "2509.18857v1"}
+{"question": "What type of optimization problem is solved to obtain the minimax estimator?", "answer": "A convex optimization problem.", "source": "2509.18857v1"}
+{"question": "Toward which value are outcomes shrunk in the proposed estimator?", "answer": "Toward 1/2.", "source": "2509.18857v1"}
+{"question": "What key crash revealed structural changes in qMSTs?", "answer": "The Terra/Luna crash in April 2022.", "source": "2509.18820v1"}
+{"question": "What cryptocurrency was initially the central hub in the correlation network?", "answer": "Bitcoin (BTC).", "source": "2509.18820v1"}
+{"question": "Which cryptocurrency gained prominence after BTC’s dominance declined?", "answer": "Ethereum (ETH).", "source": "2509.18820v1"}
+{"question": "What type of fluctuations exhibited stronger correlations than large-scale ones?", "answer": "Medium-scale fluctuations.", "source": "2509.18820v1"}
+{"question": "What visualization method was used to capture evolving structures?", "answer": "q-dependent minimum spanning trees (qMSTs).", "source": "2509.18820v1"}
+{"question": "What two ML techniques were used to estimate functional intercepts and slopes?", "answer": "Gradient boosting decision trees and deep neural networks.", "source": "2509.18047v1"}
+{"question": "Which datasets were used in the case studies?", "answer": "easySHARE, Swissmetro, and LPMC datasets.", "source": "2509.18047v1"}
+{"question": "What problem of fixed-effects models is avoided by the functional effects model?", "answer": "The incidental parameters problem.", "source": "2509.18047v1"}
+{"question": "What type of regression model does FI-RUMBoost combine with functional effects?", "answer": "Random utility maximization boosting (RUMBoost).", "source": "2509.18047v1"}
+{"question": "What kind of preferences does the functional effects model aim to capture?", "answer": "Inter-individual heterogeneity in panel choice data.", "source": "2509.18047v1"}
+{"question": "Which representation is leveraged to build bootstrap procedures for local projections?", "answer": "The moving average representation of the data.", "source": "2509.17949v1"}
+{"question": "What assumption replaces finite-order VAR in the proposed bootstrap?", "answer": "That the DGP may be an infinite-order process.", "source": "2509.17949v1"}
+{"question": "Who introduced local projections in 2005?", "answer": "Óscar Jordà.", "source": "2509.17949v1"}
+{"question": "What technique is central to mitigating bias from nuisance estimation?", "answer": "Bayesian debiasing with sample-splitting and cross-fitting.", "source": "2509.17385v1"}
+{"question": "What theorem is used to show asymptotic Gaussianity of the posterior?", "answer": "The Bernstein–von Mises theorem.", "source": "2509.17385v1"}
+{"question": "What kind of estimator is proposed for ecological inference with aggregate data?", "answer": "A semiparametric debiased machine learning estimator.", "source": "2509.20194v1"}
+{"question": "What key assumption threatens ecological inference validity?", "answer": "Aggregation bias.", "source": "2509.20194v1"}
+{"question": "Which earlier researcher warned about drawing inferences from aggregate data?", "answer": "Robinson (1950).", "source": "2509.20194v1"}
+{"question": "What estimation framework does the new method extend?", "answer": "Partially linear models with nuisance restrictions.", "source": "2509.20194v1"}
+{"question": "What problem does the semiparametric sensitivity analysis address?", "answer": "Violations of the identifying assumption.", "source": "2509.20194v1"}
+{"question": "What auction type is studied for seller risk aversion?", "answer": "Ascending auctions.", "source": "2509.19945v1"}
+{"question": "What utility functions are used to model seller risk aversion?", "answer": "CARA and CRRA utility functions.", "source": "2509.19945v1"}
+{"question": "What empirical data were used to illustrate the method?", "answer": "Foreclosure real estate auctions in São Paulo.", "source": "2509.19945v1"}
+{"question": "What parameter of sellers is identified from the distribution of bids and reserves?", "answer": "Arrow–Pratt measures of risk aversion.", "source": "2509.19945v1"}
+{"question": "What econometric technique is used in the first stage to estimate bidder valuation quantiles?", "answer": "Augmented quantile regression (AQR).", "source": "2509.19945v1"}
+{"question": "Into what three components are co-movements decomposed in matrix-valued time series?", "answer": "Row-specific, column-specific, and joint interactions.", "source": "2509.19911v1"}
+{"question": "What model structure is preserved instead of vectorizing the data?", "answer": "Matrix autoregressive structure.", "source": "2509.19911v1"}
+{"question": "What selection criterion is proposed for rank choice?", "answer": "A BIC-type criterion.", "source": "2509.19911v1"}
+{"question": "What type of inference is admitted by the estimator?", "answer": "Standard asymptotic inference.", "source": "2509.19911v1"}
+{"question": "What are the three kinds of co-movements identified?", "answer": "Row, column, and joint co-movements.", "source": "2509.19911v1"}
+{"question": "What market’s system price is forecasted in the study?", "answer": "The Nordic electricity market.", "source": "2509.18887v1"}
+{"question": "What feature engineering technique is applied before PCA?", "answer": "K-means clustering with MSTD and SARIMA decomposition.", "source": "2509.18887v1"}
+{"question": "What statistical technique is applied to handle multicollinearity?", "answer": "Principal component analysis (PCA).", "source": "2509.18887v1"}
+{"question": "What algorithm outperformed TFT in system price forecasting?", "answer": "A multi-forecast selection–shrinkage algorithm.", "source": "2509.18887v1"}
+{"question": "What risk management instruments depend on Nordic system price?", "answer": "Electricity Price Area Differentials (EPADs).", "source": "2509.18887v1"}
+{"question": "Which paper deals with regression discontinuity estimation?", "answer": "Optimal estimation for regression discontinuity design with binary outcomes.", "source": "2509.18857v1"}
+{"question": "Which paper focuses on correlation networks in cryptocurrency?", "answer": "Filtering amplitude dependence of correlation dynamics in complex systems.", "source": "2509.18820v1"}
+{"question": "Which paper introduces Functional Effects Models?", "answer": "Functional effects models: Accounting for preference heterogeneity in panel data with machine learning.", "source": "2509.18047v1"}
+{"question": "Which paper develops bootstrap inference for local projections?", "answer": "Local Projections Bootstrap Inference.", "source": "2509.17949v1"}
+{"question": "Which paper introduces Bayesian debiased semi-supervised inference?", "answer": "Bayesian Semi-supervised Inference via a Debiased Modeling Approach.", "source": "2509.17385v1"}
+{"question": "Which paper develops a method for conditional means from aggregate data?", "answer": "Identification and Semiparametric Estimation of Conditional Means from Aggregate Data.", "source": "2509.20194v1"}
+{"question": "Which paper estimates seller risk aversion?", "answer": "Identification and Estimation of Seller Risk Aversion in Ascending Auctions.", "source": "2509.19945v1"}
+{"question": "Which paper analyzes matrix-valued time series co-movements?", "answer": "Decomposing Co-Movements in Matrix-Valued Time Series: A Pseudo-Structural Reduced-Rank Approach.", "source": "2509.19911v1"}
+{"question": "Which paper proposes a PCA-augmented forecasting framework?", "answer": "Driver Identification and PCA Augmented Selection Shrinkage Framework for Nordic System Price Forecasting.", "source": "2509.18887v1"}

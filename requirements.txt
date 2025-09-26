@@ -12,6 +12,15 @@ pymupdf        # (imported as "fitz")
 sentence-transformers
 faiss-cpu
 rank-bm25
+ollama
+pyspellchecker
+keybert
+sentence-transformers
+pymupdf 
+pdfplumber 
+open-clip-torch 
+pillow 
+tqdm
 
 # Reranking (cross-encoders)
 transformers
