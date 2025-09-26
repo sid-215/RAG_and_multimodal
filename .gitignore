@@ -42,7 +42,7 @@ Thumbs.db
 
 
 # Don’t commit large PDFs or datasets
-data/raw_pdfs/
+data/raw_pdfs/*.pdf
 data/mm_rag/*.pdf
 
 # Allow small JSON corpus files for eval/demo
