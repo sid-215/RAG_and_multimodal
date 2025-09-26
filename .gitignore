@@ -53,7 +53,7 @@ data/mm_rag/*.pdf
 .env
 
 # Ignore sample PDF
-data/Portfolio-Analysis-Sample.pdf
+data/mm_rag/Portfolio-Analysis-Sample.pdf
 
 # Ignore parsed images and page snapshots
 data/mm_rag/parsed/images/
