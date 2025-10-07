@@ -96,7 +96,7 @@ def correct_spelling(query: str) -> str:
     corrected_words = []
     for word in query.split():
         if word in acronyms:  
-            corrected_words.append(word)  # ✅ keep acronyms untouched
+            corrected_words.append(word)  # keep acronyms untouched
         else:
             corrected_words.append(spell.correction(word) or word)
     return " ".join(corrected_words)

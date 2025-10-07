@@ -15,7 +15,7 @@ This project implements two challenges:
 
 ### 1. Clone Repository & Setup Environment
 ```bash
-git clone <your-repo-url> RAG_and_multimodal
+git clone https://github.com/sid-215/RAG_and_multimodal.git RAG_and_multimodal
 cd RAG_and_multimodal
 
 # Create virtual environment
