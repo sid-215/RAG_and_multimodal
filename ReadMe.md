@@ -141,7 +141,7 @@ Score: 0.914
 ```
 Retriever: hybrid, Rerank: True, Top-k: 5
 Accuracy@1: 87.76% (43/49)
-Recall@5: 97.96% (48/49)
+Hit rate@5: 97.96% (48/49)
 MRR: 0.914
 ```
 
