@@ -34,8 +34,9 @@ pip install -r requirements.txt
 ### 1. Fetch Arxiv Dataset
 Fetch 40 academic papers (PDFs + metadata).
 ```bash
-python scripts/build_arxiv_dataset.py --max_total 50 --out data/semantic_search/corpus.jsonl
+python scripts/build_arxiv_dataset.py
 ```
+If you want to give your own papers as input, then place the papers in PDF format in /data/raw_pdfs. In this case, you can ignore the above command and directly run build index.
 
 ### 2. Build Index
 Generate FAISS index + BM25 for hybrid retrieval.

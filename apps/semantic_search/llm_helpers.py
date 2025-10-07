@@ -6,7 +6,7 @@ import json
 import ollama
 from datetime import datetime
 
-MODEL = "llama3.2:3b"  # you can replace with any model you pulled
+MODEL = "llama3.2:3b" 
 
 # -----------------------------
 # Acronym expansion

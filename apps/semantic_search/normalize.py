@@ -53,7 +53,7 @@ def expand_acronyms(query: str):
             print("Explanding acronym via LLM:", ac)
             # Fallback → let LLM rewrite query with all expansions
             return llm_expand_acronyms(query)
-    print(query)
+    
     return query
 
 # -----------------------------

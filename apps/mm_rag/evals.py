@@ -49,7 +49,7 @@ def run_eval(gold_path: Path, data_root: Path, k: int = 5):
 
     def avg(m_list, key): return sum(m[key] for m in m_list) / len(m_list)
 
-    print(f"\n✅ Evaluated on {len(gold)} queries")
+    print(f"\n Evaluated on {len(gold)} queries")
 
     print("\nBaseline Retriever:")
     print(f"Accuracy@1: {avg(raw_metrics,'acc1'):.3f}, Recall@{k}: {avg(raw_metrics,'rec'):.3f}, MRR: {avg(raw_metrics,'mrr'):.3f}")

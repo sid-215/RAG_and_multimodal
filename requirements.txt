@@ -21,6 +21,8 @@ pdfplumber
 open-clip-torch 
 pillow 
 tqdm
+pytesseract
+opencv-python
 
 # Reranking (cross-encoders)
 transformers

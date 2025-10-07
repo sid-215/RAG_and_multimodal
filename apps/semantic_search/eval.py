@@ -41,7 +41,7 @@ def evaluate(eval_file="rag_eval_dataset.jsonl", retriever="hybrid", top_k=5, us
     reciprocal_ranks = []
     recall_hits = 0
 
-    candidate_k = max(50, top_k)  # always fetch more candidates to make recall meaningful
+    candidate_k = max(50, top_k)  
 
     for ex in tqdm(eval_data, desc="Evaluating"):
         query = ex["question"]
@@ -68,11 +68,11 @@ def evaluate(eval_file="rag_eval_dataset.jsonl", retriever="hybrid", top_k=5, us
         retrieved_ids_topk = [r["paper_id"] for r in results[:top_k]]
         retrieved_ids_all = [r["paper_id"] for r in results]
 
-        # Accuracy@1
+        # Accuracy@1/Precision@1
         if retrieved_ids_topk and retrieved_ids_topk[0] == gold_source:
             correct_at1 += 1
 
-        # Recall@k
+        # Hitrate@k
         if gold_source in retrieved_ids_topk:
             recall_hits += 1
 
@@ -90,7 +90,7 @@ def evaluate(eval_file="rag_eval_dataset.jsonl", retriever="hybrid", top_k=5, us
 
     print(f"Retriever: {retriever}, Rerank: {use_rerank}, Top-k: {top_k}")
     print(f"Accuracy@1: {accuracy_at1:.2%} ({correct_at1}/{total})")
-    print(f"Recall@{top_k}: {recall_at_k:.2%} ({recall_hits}/{total})")
+    print(f"Hit Rate@{top_k}: {recall_at_k:.2%} ({recall_hits}/{total})")
     print(f"MRR: {mrr:.3f}")
 
 
