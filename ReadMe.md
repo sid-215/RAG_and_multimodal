@@ -9,7 +9,7 @@ This project implements two challenges:
 
 ---
 
-## Challenge 1 - Semantic Search 
+## Semantic Search 
 
 ## Setup Instructions
 
@@ -162,7 +162,7 @@ MRR: 0.914
 
 
 
-## Challenge 2 — Multi-Modal Document RAG
+## Multi-Modal Document RAG
 
 ##  Objective
 Build a split-modal RAG pipeline that answers questions from a PDF containing **text, tables, and charts/images**.  
